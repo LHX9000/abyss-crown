@@ -145,10 +145,12 @@ make
 
 ### 5.2 待由 GitHub Actions / Windows 环境验证
 
-- Windows 10/11 + MinGW 可以通过 CMake 完成构建。
+- Windows GitHub Actions + MinGW 已通过 CMake 完成构建。
+- macOS GitHub Actions 已通过 CMake 完成构建。
+- Windows CI 已验证 SDL2/SDL2_ttf 链接、资源复制和运行时 DLL 复制步骤。
+- 仍建议甲方在实际 Windows 10/11 + CLion 环境完成一次人工运行验收。
 - CLion 可以识别 Windows MinGW CMake Preset。
 - vcpkg 可以根据 `vcpkg.json` 安装 SDL2 与 SDL2_ttf。
-- Windows 运行时 DLL 会复制到可执行文件目录。
 - Windows 上项目中文字体和系统字体回退均可正常显示中文。
 - Windows llama.cpp 可选调用使用 `_popen` 和 `2>NUL`，失败时回退到规则 AI。
 - 分别临时移走胜利和失败背景 BMP，确认对应结束页回退到开始页背景。
