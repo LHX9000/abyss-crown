@@ -1,0 +1,6 @@
+# ABYSS CROWN runtime config
+# llama.cpp is optional. Keep disabled for the first runnable version.
+
+llama_enabled=false
+llama_executable=
+llama_model=

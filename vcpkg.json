@@ -1,0 +1,9 @@
+{
+  "name": "abyss-crown",
+  "version-string": "1.0.0",
+  "description": "A C++17 SDL2 pixel dungeon game with optional llama.cpp hints.",
+  "dependencies": [
+    "sdl2",
+    "sdl2-ttf"
+  ]
+}
