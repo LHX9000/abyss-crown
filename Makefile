@@ -1,5 +1,5 @@
 CXX := clang++
-CXXFLAGS := -std=c++17 -Wall -Wextra -pedantic -Iinclude $(shell sdl2-config --cflags)
+CXXFLAGS := -std=c++17 -Wall -Wextra -pedantic -DSDL_MAIN_HANDLED -Iinclude $(shell sdl2-config --cflags)
 LDFLAGS := $(shell sdl2-config --libs) -lSDL2_ttf
 
 TARGET := build/abyss_crown
