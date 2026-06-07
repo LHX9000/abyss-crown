@@ -22,7 +22,7 @@
 克隆仓库后，在项目根目录运行：
 
 ```powershell
-git clone https://github.com/Hyacinth-xinyu/abyss-crown.git
+git clone https://github.com/LHX9000/abyss-crown.git
 cd abyss-crown
 ```
 
