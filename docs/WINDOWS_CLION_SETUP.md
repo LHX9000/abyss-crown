@@ -21,7 +21,7 @@ CLion 通常可以管理 CMake、Ninja 和 MinGW。打开 CLion 后，在：
 在 PowerShell 或 Git Bash 中执行：
 
 ```powershell
-git clone https://github.com/Hyacinth-xinyu/abyss-crown.git
+git clone https://github.com/LHX9000/abyss-crown.git
 cd abyss-crown
 ```
 
